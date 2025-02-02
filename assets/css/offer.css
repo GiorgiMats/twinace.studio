@@ -1,0 +1,151 @@
+.gm-what-we-offer {
+    display: grid;
+    grid-gap: 32px;
+    position: relative;
+}
+
+.gm-wwo-holder {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 24px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gm-wwo-item {
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.wwo-item-premium {
+    background-color: var(--white-3);
+}
+
+.wwo-item-overkill {
+    background-color: #090A0D;
+}
+
+.label-orange {
+    background-color: var(--secondary-orange);
+}
+
+.label-blue {
+    background-color: var(--main-blue);
+}
+
+.gm-wwo-label {
+    padding: 8px 12px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.gm-wwo-heading-holder {
+    display: grid;
+    grid-gap: 12px;
+    justify-content: start;
+    justify-items: start;
+}
+
+.gm-wwo-description-holder {
+    display: grid;
+    grid-gap: 8px;
+}
+
+.gm-wwo-perks-holder {
+    display: grid;
+    grid-gap: 12px;
+}
+
+.gm-wwo-perk {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+.gm-wwo-item .btn-secondary {
+    display: grid;
+    margin-top: 8px;
+}
+
+.gm-wwo-item .btn-secondary button {
+    justify-content: center;
+}
+
+.gm-wwo-item {
+    display: grid;
+    grid-gap: 16px;
+    align-content: space-between;
+}
+
+.gm-wwo-firsthalf,
+.gm-wwo-secondhalf {
+    display: grid;
+    grid-gap: 16px;
+    align-content: start;
+}
+
+.gm-wwo-notsure-holder {
+    display: grid;
+    grid-gap: 16px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gm-notsure-heading {
+    display: grid;
+    grid-gap: 8px;
+    justify-items: center;
+}
+
+.gm-hc-item {
+    display: grid;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--white-10);
+    background-color: var(--white-5);
+    grid-gap: 24px;
+    align-content: space-between;
+}
+
+.gm-hc-item-description {
+    display: grid;
+    grid-gap: 16px;
+}
+
+.hciah-right {
+    display: grid;
+    grid-gap: 7px;
+}
+
+.gm-hc-item-author-holder {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    grid-gap: 16px;
+}
+
+.gm-happy-customers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
+
+.text-space {
+    height: 16px;
+    display: block;
+}
+
+.gm-hc-top,
+.gm-hc-footer {
+    display: grid;
+    grid-gap: 24px;
+}
+
+.gm-reviews {
+    display: grid;
+    grid-gap: 32px;
+    justify-content: center;
+    position: relative;
+}

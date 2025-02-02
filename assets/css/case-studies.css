@@ -1,0 +1,54 @@
+.gm-case-study {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 70px;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.gm-cs-rightside {
+    display: grid;
+    grid-gap: 16px;
+    justify-content: start;
+    align-content: start;
+    padding-top: 52px;
+}
+
+.gm-case-studies-holder {
+    margin-top: 52px;
+    display: grid;
+    grid-gap: 32px;
+}
+
+.gm-cs-r-data-holder {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    justify-content: start;
+}
+
+.gmcsrdata-item {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 6px;
+    justify-content: start;
+}
+
+.gm-cs-leftside {
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.gm-cs-leftside-bg {
+    width: 420px;
+    height: 315px;
+    background-color: #2076FF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 6px;
+    opacity: 0.2;
+    background: #2076FF;
+    backdrop-filter: blur(2.278578281402588px);
+}

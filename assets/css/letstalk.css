@@ -1,0 +1,25 @@
+.gm-letstalk {
+    display: grid;
+    grid-gap: 16px;
+    background-color: var(--blue-10);
+    border-radius: 16px;
+    padding: 52px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gm-letstalk-outside {
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+.gm-letstalk-buttons-holder {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    margin-top: 16px;
+}
+
+.gm-letstalk .--h2 {
+    text-align: center;
+}
