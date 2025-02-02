@@ -303,3 +303,61 @@ body {
 .break {
     display: block;
 }
+
+@media only screen and (max-width: 740px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .space-52-between {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .--h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .--h2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .--uqh {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .--h4,
+    .--p1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .gm-header-nav {
+        display: none;
+    }
+
+    .btn button {
+        font-size: 14px;
+    }
+
+    .btn button svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn-link button {
+        padding: 12px 16px;
+    }
+
+    .--p3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

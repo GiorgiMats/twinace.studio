@@ -43,3 +43,26 @@
 .gm-footer-nav li a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 640px) {
+    .gm-footer-bottom {
+        grid-auto-flow: row;
+        grid-gap: 12px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .gm-footer {
+        margin-bottom: 32px;
+    }
+
+    .gm-social {
+        width: 40px;
+        height: 40px;
+    }
+
+    .gm-social svg {
+        width: 16px;
+        height: 16px;
+    }
+}

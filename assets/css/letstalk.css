@@ -23,3 +23,38 @@
 .gm-letstalk .--h2 {
     text-align: center;
 }
+
+@media only screen and (max-width: 640px) {
+    .gm-letstalk-buttons-holder {
+        grid-auto-flow: row;
+    }
+
+    .gm-letstalk {
+        padding: 52px 32px;
+    }
+
+    .gm-letstalk p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .gm-letstalk {
+        justify-items: unset;
+        justify-content: stretch;
+    }
+
+    .gm-letstalk-outside {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .gm-letstalk-buttons-holder,
+    .gm-letstalk-buttons-holder button {
+        width: 100%;
+    }
+
+    .gm-letstalk-buttons-holder button {
+        justify-content: center;
+    }
+}

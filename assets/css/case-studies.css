@@ -52,3 +52,52 @@
     background: #2076FF;
     backdrop-filter: blur(2.278578281402588px);
 }
+
+@media only screen and (max-width: 1040px) {
+    .gm-case-study {
+        grid-gap: 16px;
+        grid-template-columns: unset;
+        grid-auto-flow: row;
+    }
+
+    .gm-cs-leftside {
+        display: grid;
+        justify-content: center;
+    }
+
+    .gm-cs-leftside-bg {
+        right: calc(50% - 40px);
+        transform: translateX(50%);
+    }
+
+    .gm-cs-rightside {
+        padding-top: 0;
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gm-cs-leftside img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gm-cs-leftside {
+        padding-bottom: unset;
+    }
+
+    .gm-cs-leftside-bg {
+        display: none;
+    }
+
+    .gm-cs-r-data-holder {
+        grid-auto-flow: row;
+        grid-gap: 8px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .gm-cs-rightside {
+        grid-gap: 12px;
+    }
+}

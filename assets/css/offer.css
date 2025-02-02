@@ -149,3 +149,22 @@
     justify-content: center;
     position: relative;
 }
+
+@media only screen and (max-width: 740px) {
+    .gm-wwo-holder {
+        grid-auto-flow: row;
+        grid-template-columns: unset;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .gm-happy-customers {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .gm-what-we-offer {
+        grid-gap: 16px;
+    }
+}
